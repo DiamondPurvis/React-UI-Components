@@ -1,0 +1,60 @@
+.white {
+    background-color: white;
+    width: 25%;
+    height: 75px;
+    font-size: 2rem;
+    font-weight: 600;
+    border-top: .1px solid #979797;
+    border-right: .1px solid #979797;
+}
+
+.white:active {
+    transform: translateY(1px);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.red {
+    background-color: #a0001e;
+    color: white;
+    width: 25%;
+    height: 75px;
+    font-size: 2rem;
+    border-top: .1px solid #979797;
+}
+
+.red:active {
+    transform: translateY(1px);
+    filter: saturate(150%);
+}
+
+.clear {
+    background-color: white;
+    width: 75%;
+    height: 75px;
+    font-size: 2rem;
+    border-top: .1px solid #979797;
+    border-right: .1px solid #979797;
+}
+
+.clear:active {
+    transform: translateY(1px);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.zero {
+    background-color: white;
+    width: 75%;
+    height: 75px;
+    font-size: 2rem;
+    font-weight: 600;
+    border-top: .1px solid #979797;
+    border-right: .1px solid #979797;
+} 
+
+.zero:active {
+    transform: translateY(1px);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
